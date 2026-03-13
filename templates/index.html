@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>AI SQL Assistant</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+<div class="sidebar">
+
+<h2>AI SQL</h2>
+<p>Natural Language → SQL</p>
+
+<div class="examples">
+
+<h4>Example Queries</h4>
+
+<button onclick="fillExample('Show all products')">
+Show all products
+</button>
+
+<button onclick="fillExample('List all customers')">
+List customers
+</button>
+
+<button onclick="fillExample('Budget of Product 12')">
+Budget of Product 12
+</button>
+
+</div>
+
+</div>
+
+
+<div class="main">
+
+<h1>AI Database Assistant</h1>
+
+<div class="query-box">
+
+<input id="question"
+placeholder="Ask something about your database..." >
+
+<button onclick="ask()">Generate</button>
+
+</div>
+
+<div id="loading" class="loading">
+Generating SQL...
+</div>
+
+
+<div class="section">
+
+<h3>Generated SQL</h3>
+
+<pre id="sql"></pre>
+
+</div>
+
+
+<div class="section">
+
+<h3>Query Result</h3>
+
+<div id="result"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+
+</html>

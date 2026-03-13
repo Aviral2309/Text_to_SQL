@@ -1,0 +1,19 @@
+langchain
+langchain_community
+langchain_core
+langchain_huggingface
+langchain_openai
+langchain_google_genai #Langchain Libraries
+
+pymysql
+sqlalchemy #Database
+
+sentence-transformers #Embedding
+
+ragas # Evaluation
+
+flask # WebFramework 
+
+pandas 
+python-dotenv
+utils

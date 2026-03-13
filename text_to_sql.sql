@@ -8,3 +8,5 @@ select s.`Customer Name Index`, SUM(s.`Line Total`) from customers c, sales_orde
 where c. `Customer Index` = s. `Customer Name Index`
 and c. `Customer Names` = 'Geiss Company'
 group by s. `Customer Name Index`;
+
+SELECT `2017 Budgets` FROM `2017_budgets` WHERE `Product Name` = 'Product 12'

@@ -1,0 +1,97 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f1f5f9;
+}
+
+.app{
+display:flex;
+height:100vh;
+}
+
+.sidebar{
+width:250px;
+background:#0f172a;
+color:white;
+padding:20px;
+}
+
+.sidebar p{
+color:#94a3b8;
+}
+
+.examples{
+margin-top:30px;
+}
+
+.examples button{
+display:block;
+width:100%;
+margin-bottom:10px;
+padding:10px;
+border:none;
+background:#1e293b;
+color:white;
+cursor:pointer;
+}
+
+.examples button:hover{
+background:#334155;
+}
+
+.main{
+flex:1;
+padding:30px;
+}
+
+.query-box{
+display:flex;
+margin-top:20px;
+}
+
+.query-box input{
+flex:1;
+padding:12px;
+font-size:16px;
+}
+
+.query-box button{
+padding:12px 20px;
+background:#2563eb;
+border:none;
+color:white;
+cursor:pointer;
+}
+
+.section{
+margin-top:30px;
+}
+
+pre{
+background:#020617;
+color:#e2e8f0;
+padding:15px;
+border-radius:6px;
+}
+
+.loading{
+display:none;
+margin-top:10px;
+color:#2563eb;
+}
+
+table{
+border-collapse:collapse;
+width:100%;
+background:white;
+margin-top:10px;
+}
+
+table th, table td{
+padding:10px;
+border:1px solid #e2e8f0;
+}
+
+table th{
+background:#f1f5f9;
+}
