@@ -212,8 +212,4 @@ Aviral Mittal
 
 AI & Data Science Enthusiast
 
----
 
-## License
-
-This project is open source and available under the MIT License.
