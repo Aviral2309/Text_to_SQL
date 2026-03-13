@@ -14,7 +14,7 @@ api_key = os.getenv("GEMINI_API_KEY")
 host = "localhost"
 port = "3306"
 username = "root"
-password = quote_plus("Aviral@2316")
+password = quote_plus("")
 database_schema = "text_to_sql"
 
 mysql_uri = f"mysql+pymysql://{username}:{password}@{host}:{port}/{database_schema}"
